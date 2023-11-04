@@ -37,6 +37,29 @@
     text-align: center;
     margin-top: 0;
 }
+
+.places .reviews {
+    margin-top: 10px;
+    text-align: left;
+}
+.places .reviews ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.places .reviews h2 {
+    font-size: 16px;
+    text-align: left;
+    line-height: 2;
+    border-bottom: 1px solid #DDDDDD;
+}
+.places .reviews h2 .reveal {
+    color: cornflowerblue;
+    font-size: 10px;
+    cursor: pointer;
+}
 .title_box {
     display: flex;
     justify-content: space-between;
